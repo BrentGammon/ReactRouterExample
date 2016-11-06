@@ -8,6 +8,7 @@ class NestedRouteNav extends Component {
           <div className="container-fluid">
             <ul className="nav navbar-nav">
               <li><p className="navbar-text">Nested Route</p></li>
+              <li><Link to="/component1">Nested Home</Link></li>
               <li><Link to="/component1/nestedroute1">Nested Route 1</Link></li>
               <li><Link to="/component1/nestedroute2">Nested Route 2</Link></li>
               <li><Link to="/component1/nestedroute3">Nested Route 3</Link></li>
